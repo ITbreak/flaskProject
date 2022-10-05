@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+/* body 样式 */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* 列容器 */
+.row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+
+/* 创建两个列 */
+/* 边栏 */
+.left {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    background-color: #f1f1f1;
+}
+
+/* 主要的内容区域 */
+.right {   
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    background-color: #f1f1f1;
+}
+
+/* 测试图片 */
+.chart {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    border: 10px solid #f1f1f1;
+    border-top: 0px;
+}
